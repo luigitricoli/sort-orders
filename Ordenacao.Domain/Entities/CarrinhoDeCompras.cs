@@ -18,5 +18,11 @@ namespace Ordenacao.Domain.Entities
     {
       _produtos.Add(produto);
     }
+
+    public void Adiciona(params Produto[] produtos)
+    {
+      foreach (var produto in produtos)
+        _produtos.Add(produto);
+    }
   }
 }
