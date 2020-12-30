@@ -9,6 +9,11 @@ namespace Ordenacao.Domain.Entities
 
     public IReadOnlyCollection<Produto> Produtos { get => _produtos.ToArray(); }
 
+    public CarrinhoDeCompras()
+    {
+      _produtos = new List<Produto>();
+    }
+
     public void Adiciona(Produto produto)
     {
       _produtos.Add(produto);
