@@ -22,7 +22,6 @@ namespace Ordenacao.AppConsole
 
       var produtos = new List<Produto>();
 
-
       foreach (var arg in args)
       {
         var nome = arg.Split(",").First();
@@ -37,7 +36,6 @@ namespace Ordenacao.AppConsole
 
       MaiorEMenor algoritmo = new MaiorEMenor();
       algoritmo.Encontra(carrinho);
-
 
       Console.WriteLine("O menor produto: " + algoritmo.Menor.Nome);
       Console.WriteLine("O maior produto: " + algoritmo.Maior.Nome);
