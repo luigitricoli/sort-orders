@@ -7,7 +7,7 @@ Imagine-se trabalhando em uma loja virtual qualquer. Existe uma classe CarrinhoD
 public class CarrinhoDeCompras
 {
   ...
-  
+
   public void Adiciona(Produto produto)
   {
     ...
@@ -46,9 +46,9 @@ A classe MaiorEMenor deve ser capaz de retorna os nomes corretamente para os seg
 
 ## Desejável
 
-- [ ] Criar os testes unitários para validar os 4 cenários
-- [ ] Receber a lista através do prompt de comando
-- [ ] Utilizar os princípios do SOLID aplicáveis 
+- [x] Criar os testes unitários para validar os 4 cenários
+- [x] Receber a lista através do prompt de comando
+- [ ] Utilizar os princípios do SOLID aplicáveis
 
 ## Instruções gerais
 * Antes de iniciar o desenvolvimento informe via e-mail quando irá entregar a solução;
